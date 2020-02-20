@@ -1,3 +1,13 @@
+/* global */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+/* body styling */
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -9,13 +19,49 @@ body {
   width: 420px;
 }
 
+
+/* header font */
+h1 {
+  font: 700 1.8em/1.5 sans-serif;
+}
+
+h3 {
+  font: 1.4em/1.2 sans-serif;
+}
+
+/* navigation */
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: #000;
 }
 
+/* resturant list */
+
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 10%;
+  background-color: #dfdee0;
+  width: 100%;
+}
+
+
+.location {
+  border-bottom: 1.25px solid #959495;
+  padding:  4% 5%;
+}
+
+.location:hover {
+  background-color: #b4b2b4;
+}
+
+.content{
+  width: 95%;
+}
+
+.arrow {
+  width: 5%;
+  float: right;
+  margin-top: -8%;
 }
